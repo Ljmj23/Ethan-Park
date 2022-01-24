@@ -1,9 +1,6 @@
 body{
 max-width: 100vw;
-overflow-x: hidden;  
-margin: 0px;
-padding-left: 1%;
-padding-right: 1%;    
+overflow-x: hidden;    
 }
 
 a{
@@ -42,8 +39,8 @@ width:90%;
 #instagram{
 position: relative;
 top:0px;
-
-text-align: right;
+left:93%;
+width:5%;
 font-family: botanika-mono-web, monospace;
 font-weight: 400;
 font-style: normal;
@@ -69,8 +66,154 @@ font-style: normal;
   left: 95%;
 }
 
+
+
+
+
+#E{
+ 
+}
+
+#F{
+  margin-left: 8px;
+
+}
+#EF{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+
+
+
+#G{
+}
+
+#D{
+  margin-left: 8px;
+  height: 100%;
+
+}
+
+#GD{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+
+
+
+
+#J{
+    width:100%;
+    height:100%;
+}
+
+
+
+
+
+
+#M{
+
+}
+
+#N{
+  margin-left: 8px;
+
+}
+
+#MN{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+
+
+
+
+
+#O{
+
+}
+
+#P{
+  margin-left: 8px;
+
+}
+
+#OP{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+
+
+
+#Q{
+
+}
+
+#R{
+  margin-left: 8px;
+
+}
+
+#QR{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+
+
+
+#S{
+
+}
+
+#T{
+  margin-left: 8px;
+
+}
+
+#ST{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+
+
+#U{
+    width:100%;
+    height:100%;
+}
+
+
+#V{
+
+}
+
+#W{
+  margin-left: 8px;
+
+}
+
+#VW{
+  display: grid;
+  grid-template-columns: 55% 1fr;
+}
+
+
+ 
 #num{
   position: relative;
+  width: 100%;    
   top:0px;
   text-align: center;
   font-family: botanika-mono-web, monospace;
@@ -82,18 +225,18 @@ font-style: normal;
   display: inline;
 }
 
-.currentpage{
-    text-decoration: underline;
-}
 
 
 
-@media only screen and (max-width:700px) {
 
-    body{
-        padding: 0px;
-        margin: 8px;
-    }
+
+
+
+
+
+
+@media (max-width:700px) {
+    
 #B{
   margin-left: 0px;
 
@@ -105,16 +248,9 @@ font-style: normal;
 } 
     
 #instagram{
- 
+left:82%;
 
 }
-#num{
-  position: relative;
-  top:0px;
-  
-  font-family: botanika-mono-web, monospace;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
 }
